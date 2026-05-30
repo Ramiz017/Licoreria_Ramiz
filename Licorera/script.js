@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
 
         const username = usernameInput.value;
-        const password = passwordInput.value;
+        const password = passwordInput.value; 
 
         const foundUser = users.find(user => user.username === username && user.password === password);
 
